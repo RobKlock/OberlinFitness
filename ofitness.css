@@ -25,14 +25,18 @@ header{
   margin-left: 100px;
 }
 .div2{
-  background-color: purple;
+  background-color: gray;
   color: white;
   text-shadow: 2px 2px black;
   align-items: center;
+  font-size: 18px;
 }
 
 .div3{
-  background-image: radial-gradient(red, orange);
+  background-color: #4B0018;
+  color: white;
+  border-bottom-style:dashed;
+  border-bottom-color: #ffb81d;
 }
 .topnav{
   margin-top: -80px;
@@ -44,6 +48,7 @@ header{
   align-items: stretch;
 }
 a{
+  color: #CF102D;
   margin-top: 0px;
   padding-bottom: 0px;
   padding-top: 0px;
@@ -52,12 +57,12 @@ a{
 
 }
 a:link{
+  color: #CF102D;
   float: none;
   padding-top: 0px;
-  color: #ffb81d;
 }
 a:hover{
-  color: #CF102D;
+  color: #ffb81d;
 
 }
 button{
@@ -81,4 +86,8 @@ h2{
 }
 h3{
   color: brown;
+}
+.logo{
+width:100px;
+height:100px;>
 }
